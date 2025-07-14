@@ -1,0 +1,47 @@
+<div class="form-container">
+  <h2 class="form-title">Update Category</h2>
+
+  <!-- Search Category by ID -->
+  <form (ngSubmit)="getCategoryById()" class="search-form">
+      <div class="mb-3">
+          <label for="searchId" class="form-label">Enter Category ID</label>
+          <input type="number" class="form-control" id="searchId" [(ngModel)]="searchId" 
+                 name="searchId" required placeholder="Enter Category ID...">
+      </div>
+      <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+
+  <hr>
+
+  <!-- Update Category Form -->
+  <div *ngIf="searchedCategory">
+      <h4 class="section-title">Update Category Details</h4>
+      <form #updateCategoryForm="ngForm" (ngSubmit)="updateCategory(updateCategoryForm)" class="update-form">
+          
+          <div class="mb-3">
+              <label for="categoryId" class="form-label">Category ID</label>
+              <input type="text" class="form-control" id="categoryId" name="categoryId"
+                     [(ngModel)]="searchedCategory.categoryId" readonly>
+          </div>
+
+          <div class="mb-3">
+              <label for="name" class="form-label">Category Name</label>
+              <input type="text" class="form-control" id="name" name="name" required
+                     [(ngModel)]="searchedCategory.name" #nameInput="ngModel" placeholder="Enter Category Name">
+              <span *ngIf="nameInput.invalid && nameInput.touched" class="error-text">Name is required</span>
+          </div>
+
+          <div class="mb-3">
+              <label for="description" class="form-label">Description</label>
+              <textarea class="form-control" id="description" name="description" required
+                        [(ngModel)]="searchedCategory.description" #descriptionInput="ngModel" 
+                        placeholder="Enter Category Description"></textarea>
+              <span *ngIf="descriptionInput.invalid && descriptionInput.touched" class="error-text">
+                  Description is required
+              </span>
+          </div>
+
+          <button type="submit" class="btn btn-success btn-update">Update Category</button>
+      </form>
+  </div>
+</div>

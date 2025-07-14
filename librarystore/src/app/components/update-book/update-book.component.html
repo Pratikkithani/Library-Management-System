@@ -1,0 +1,70 @@
+<div class="form-container">
+  <h2 class="form-title">Update Book</h2>
+
+  <!-- Search Book by ID -->
+  <form (ngSubmit)="getBookById()" class="search-form">
+      <div class="mb-3">
+          <label for="searchId" class="form-label">Enter Book ID</label>
+          <input type="number" class="form-control" id="searchId" [(ngModel)]="searchId" 
+                 name="searchId" required placeholder="Enter Book ID...">
+      </div>
+      <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+
+  <hr>
+
+  <!-- Update Book Form -->
+  <div *ngIf="searchedBook">
+      <h4 class="section-title">Update Book Details</h4>
+      <form #updateBookForm="ngForm" (ngSubmit)="updateBook(updateBookForm)" class="update-form">
+          <div class="mb-3">
+              <label for="title" class="form-label">Title</label>
+              <input type="text" class="form-control" id="title" name="title" required
+                     [(ngModel)]="searchedBook.title" #titleInput="ngModel" placeholder="Enter book title">
+              <span *ngIf="titleInput.invalid && titleInput.touched" class="error-text">Title is required</span>
+          </div>
+
+          <div class="mb-3">
+              <label for="author" class="form-label">Author</label>
+              <input type="text" class="form-control" id="author" name="author" required
+                     [(ngModel)]="searchedBook.author" #authorInput="ngModel" placeholder="Enter author name">
+              <span *ngIf="authorInput.invalid && authorInput.touched" class="error-text">Author is required</span>
+          </div>
+
+          <div class="mb-3">
+              <label for="isbn" class="form-label">ISBN</label>
+              <input type="text" class="form-control" id="isbn" name="isbn" required
+                     [(ngModel)]="searchedBook.isbn" #isbnInput="ngModel" placeholder="Enter ISBN">
+              <span *ngIf="isbnInput.invalid && isbnInput.touched" class="error-text">ISBN is required</span>
+          </div>
+
+          <div class="mb-3">
+              <label for="categoryId" class="form-label">Select Category</label>
+              <select class="form-control" id="categoryId" name="categoryId"
+                      [(ngModel)]="searchedBook.categoryId" #categorySelect="ngModel" required>
+                  <option value="" disabled>--Select Category--</option>
+                  <option *ngFor="let category of categories" [value]="category.categoryId">
+                      {{ category.name }}
+                  </option>
+              </select>
+              <span *ngIf="categorySelect.invalid && categorySelect.touched" class="error-text">Category is required</span>
+          </div>
+
+          <div class="mb-3">
+              <label for="publishedYear" class="form-label">Published Year</label>
+              <input type="number" class="form-control" id="publishedYear" name="publishedYear" required
+                     [(ngModel)]="searchedBook.publishedYear" #publishedYearInput="ngModel" placeholder="Enter Published Year">
+              <span *ngIf="publishedYearInput.invalid && publishedYearInput.touched" class="error-text">Published Year is required</span>
+          </div>
+
+          <div class="mb-3">
+              <label for="copiesAvailable" class="form-label">Copies Available</label>
+              <input type="number" class="form-control" id="copiesAvailable" name="copiesAvailable" required
+                     [(ngModel)]="searchedBook.copiesAvailable" #copiesAvailableInput="ngModel" placeholder="Enter available copies">
+              <span *ngIf="copiesAvailableInput.invalid && copiesAvailableInput.touched" class="error-text">No. of Copies required</span>
+          </div>
+
+          <button type="submit" class="btn btn-success btn-update">Update Book</button>
+      </form>
+  </div>
+</div>

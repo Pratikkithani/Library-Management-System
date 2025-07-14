@@ -1,0 +1,107 @@
+<div>
+  <table class="category-table">
+    <thead>
+      <tr>
+        <th>Category ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Update</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of categories">
+        <td>{{item?.categoryId}}</td>
+        <td>{{item?.name}}</td>
+        <td>{{item?.description}}</td>
+        <td>
+          <button class="btn btn-update" (click)="updateCategoryById(item.categoryId!)">
+            Update
+          </button>            
+        </td>
+        <td>
+          <button class="btn btn-delete" (click)="deleteCategoryById(item.categoryId!)">
+            Delete
+          </button>            
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<style>
+/* Table Styling */
+.category-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table Header */
+.category-table thead {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+}
+
+.category-table th {
+  padding: 14px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Table Rows */
+.category-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Zebra Striping */
+.category-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Hover Effect */
+.category-table tr:hover {
+  background-color: #eef2ff;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Update Button */
+.btn-update {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-update:hover {
+  background-color: #0056b3;
+}
+
+/* Delete Button */
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #a71d2a;
+}
+
+</style>

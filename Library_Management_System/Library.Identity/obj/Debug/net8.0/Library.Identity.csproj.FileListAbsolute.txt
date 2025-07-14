@@ -1,0 +1,43 @@
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Identity.deps.json
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Identity.runtimeconfig.json
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Identity.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Identity.pdb
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\bin\Debug\net8.0\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\bin\Debug\net8.0\LibraryApp.Domain.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\bin\Debug\net8.0\LibraryApp.Application.pdb
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\bin\Debug\net8.0\LibraryApp.Domain.pdb
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library..8E5AB516.Up2Date
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\obj\Debug\net8.0\refint\Library.Identity.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.pdb
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.genruntimeconfig.cache
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\obj\Debug\net8.0\ref\Library.Identity.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Infrastructure.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Infrastructure.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Identity.deps.json
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Identity.runtimeconfig.json
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Identity.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Identity.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Infrastructure.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\bin\Debug\net8.0\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\bin\Debug\net8.0\LibraryApp.Domain.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\bin\Debug\net8.0\Library.Infrastructure.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\bin\Debug\net8.0\LibraryApp.Application.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\bin\Debug\net8.0\LibraryApp.Domain.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.sourcelink.json
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library..8E5AB516.Up2Date
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\refint\Library.Identity.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\Library.Identity.genruntimeconfig.cache
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\Library.Identity\obj\Debug\net8.0\ref\Library.Identity.dll

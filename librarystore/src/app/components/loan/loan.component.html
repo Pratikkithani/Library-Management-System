@@ -1,0 +1,34 @@
+<div class="loan-container">
+  <h2 class="loan-title">📜 All Loans</h2>
+
+  <div class="table-responsive">
+      <table class="table loan-table">
+          <thead>
+              <tr>
+                  <th>Loan ID</th>
+                  <th>Book</th>
+                  <th>Member ID</th>
+                  <th>Loan Date</th>
+                  <th>Due Date</th>
+                  <th>Return Date</th>
+                  <th>Status</th>
+                  <th>Return Book</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let loan of userloans">
+                  <td>{{ loan.loanId }}</td>
+                  <td>{{ loan.bookId }}</td>
+                  <td>{{ loan.memberId }}</td>
+                  <td>{{ loan.loanDate  }}</td>
+                  <td>{{ loan.dueDate }}</td>
+                  <td>{{ loan.returnDate }}</td>
+                  <td>{{ loan.status }}</td>
+                  <td *ngIf="loan.status === 'Borrowed'">
+                    <button class="btn btn-return" (click)="updateLoanStatus(loan.loanId!)">Return</button>
+                  </td>                  
+                </tr>
+          </tbody>
+      </table>
+  </div>
+</div>

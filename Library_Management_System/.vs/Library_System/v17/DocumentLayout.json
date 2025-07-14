@@ -1,0 +1,904 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|solutionrelative:libraryapp.domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.identity\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|solutionrelative:library.identity\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.identity\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|solutionrelative:library.identity\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.infrastructure\\repository\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\repository\\loanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.infrastructure\\repository\\memberrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\repository\\memberrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.domain\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|solutionrelative:libraryapp.domain\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.domain\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|solutionrelative:libraryapp.domain\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.api\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\controllers\\loancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.infrastructure\\context\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\context\\librarydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\features\\bookfeature\\query\\getbooks\\getbooksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\features\\bookfeature\\query\\getbooks\\getbooksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\dtos\\bookdto\\getbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\dtos\\bookdto\\getbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|solutionrelative:libraryapp.domain\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\features\\bookfeature\\query\\getbooks\\getbooksqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\features\\bookfeature\\query\\getbooks\\getbooksqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\interfaces\\bookinterfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\interfaces\\bookinterfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.infrastructure\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.infrastructure\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\features\\loanfeature\\query\\getloansbyuserid\\getloansbyuseridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\features\\loanfeature\\query\\getloansbyuserid\\getloansbyuseridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.infrastructure\\configuration\\loanconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\configuration\\loanconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.infrastructure\\configuration\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\configuration\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.infrastructure\\configuration\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\configuration\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.api\\services\\loggedinuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\services\\loggedinuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\interfaces\\iloggedinuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\interfaces\\iloggedinuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.domain\\libraryapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|solutionrelative:libraryapp.domain\\libraryapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.infrastructure\\interfaceservice.registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\interfaceservice.registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\models\\identity\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\models\\identity\\registrationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\models\\identity\\registrationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\models\\identity\\registrationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\models\\identity\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\models\\identity\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\features\\loanfeature\\query\\getloansbyuserid\\getloansbyuseridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\features\\loanfeature\\query\\getloansbyuserid\\getloansbyuseridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\interfaces\\loaninterfaces\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\interfaces\\loaninterfaces\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\features\\loanfeature\\query\\getloans\\getloansqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\features\\loanfeature\\query\\getloans\\getloansqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\features\\loanfeature\\query\\getloans\\getloansquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\features\\loanfeature\\query\\getloans\\getloansquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.api\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.identity\\identityserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|solutionrelative:library.identity\\identityserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\interfaces\\memberinterfaces\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\interfaces\\memberinterfaces\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.domain\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0155A2ED-5CA5-4FE6-94F3-FBD77FF3267C}|LibraryApp.Domain\\LibraryApp.Domain.csproj|solutionrelative:libraryapp.domain\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.identity\\context\\libraryappidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|solutionrelative:library.identity\\context\\libraryappidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\features\\loanfeature\\command\\borrowbook\\borrowbookcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\features\\loanfeature\\command\\borrowbook\\borrowbookcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\features\\loanfeature\\command\\borrowbook\\borrowbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\features\\loanfeature\\command\\borrowbook\\borrowbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\models\\loandto\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\models\\loandto\\loandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\models\\identity\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\models\\identity\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\features\\bookfeature\\query\\getavailablebooks\\getavailablebooksqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\features\\bookfeature\\query\\getavailablebooks\\getavailablebooksqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\libraryapp.application\\features\\bookfeature\\query\\getavailablebooks\\getavailablebooksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478C09CE-15FE-46EC-84A2-2565E3AA061F}|LibraryApp.Application\\LibraryApp.Application.csproj|solutionrelative:libraryapp.application\\features\\bookfeature\\query\\getavailablebooks\\getavailablebooksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.identity\\model\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|solutionrelative:library.identity\\model\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\dotnetcsharp\\dotnetcsharp\\full_stack_project\\library_management_system\\library.infrastructure\\migrations\\20250403081124_addingauditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|solutionrelative:library.infrastructure\\migrations\\20250403081124_addingauditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Identity\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Library.Identity\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Identity\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Library.Identity\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAsAAABQZGZmZmYkwBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T12:10:41.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\Loan.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Domain\\Loan.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\Loan.cs",
+              "RelativeToolTip": "LibraryApp.Domain\\Loan.cs",
+              "ViewState": "AgIAAAQAAACAZmZmZmYiwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:03:40.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Repository\\LoanRepository.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Repository\\LoanRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Repository\\LoanRepository.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Repository\\LoanRepository.cs",
+              "ViewState": "AgIAACcAAAAgNTMzMzMqwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:15:28.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\Member.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Domain\\Member.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\Member.cs",
+              "RelativeToolTip": "LibraryApp.Domain\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:25:48.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MemberRespository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Repository\\MemberRespository.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Repository\\MemberRespository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Repository\\MemberRespository.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Repository\\MemberRespository.cs",
+              "ViewState": "AgIAAAgAAACAMDMzMzMLwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:10:34.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LibraryApp.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LibraryApp.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAkAAACw//////8wwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:40:20.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Identity\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Library.Identity\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Identity\\Services\\AuthService.cs",
+              "RelativeToolTip": "Library.Identity\\Services\\AuthService.cs",
+              "ViewState": "AgIAAF0AAACAZGZmZiYjwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:24:56.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\Category.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Domain\\Category.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\Category.cs",
+              "RelativeToolTip": "LibraryApp.Domain\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:47:24.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoanController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Controllers\\LoanController.cs",
+              "RelativeDocumentMoniker": "LibraryApp.API\\Controllers\\LoanController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Controllers\\LoanController.cs",
+              "RelativeToolTip": "LibraryApp.API\\Controllers\\LoanController.cs",
+              "ViewState": "AgIAACEAAACAmZmZmZkdwC8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T08:06:48.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LibraryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Context\\LibraryDbContext.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Context\\LibraryDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Context\\LibraryDbContext.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Context\\LibraryDbContext.cs",
+              "ViewState": "AgIAAAwAAADAMjMzMzMrwCwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:37:15.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetBooksQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\BookFeature\\Query\\GetBooks\\GetBooksQuery.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Features\\BookFeature\\Query\\GetBooks\\GetBooksQuery.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\BookFeature\\Query\\GetBooks\\GetBooksQuery.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Features\\BookFeature\\Query\\GetBooks\\GetBooksQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:03:08.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryApp.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\appsettings.json",
+              "RelativeToolTip": "LibraryApp.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T06:29:12.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibraryApp.API\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibraryApp.API\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T08:06:32.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Domain\\Book.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\Book.cs",
+              "RelativeToolTip": "LibraryApp.Domain\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T08:20:35.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Interfaces\\BookInterfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Interfaces\\BookInterfaces\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Interfaces\\BookInterfaces\\IBookRepository.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Interfaces\\BookInterfaces\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:56:52.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetBooksQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\BookFeature\\Query\\GetBooks\\GetBooksQueryHandler.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Features\\BookFeature\\Query\\GetBooks\\GetBooksQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\BookFeature\\Query\\GetBooks\\GetBooksQueryHandler.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Features\\BookFeature\\Query\\GetBooks\\GetBooksQueryHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:01:59.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetBookDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Dtos\\BookDto\\GetBookDto.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Dtos\\BookDto\\GetBookDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Dtos\\BookDto\\GetBookDto.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Dtos\\BookDto\\GetBookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T06:47:10.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "LibraryApp.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "LibraryApp.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:06:22.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Repository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Repository\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Repository\\BookRepository.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Repository\\BookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:15:30.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Profiles\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Profiles\\MappingProfile.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Profiles\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:10:35.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\ApplicationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\ApplicationServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\ApplicationServiceRegistration.cs",
+              "RelativeToolTip": "LibraryApp.Application\\ApplicationServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:46:26.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAABoAAAAAXmZmZmb+vyYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T12:02:57.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetLoansByUserIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoansByUserId\\GetLoansByUserIdQuery.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoansByUserId\\GetLoansByUserIdQuery.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoansByUserId\\GetLoansByUserIdQuery.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoansByUserId\\GetLoansByUserIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:47:58.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BookConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Configuration\\BookConfiguration.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Configuration\\BookConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Configuration\\BookConfiguration.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Configuration\\BookConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T06:32:39.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Configuration\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Configuration\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Configuration\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Configuration\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T06:32:42.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoanConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Configuration\\LoanConfiguration.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Configuration\\LoanConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Configuration\\LoanConfiguration.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Configuration\\LoanConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T06:32:47.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoggedInUserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Services\\LoggedInUserService.cs",
+              "RelativeDocumentMoniker": "LibraryApp.API\\Services\\LoggedInUserService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Services\\LoggedInUserService.cs",
+              "RelativeToolTip": "LibraryApp.API\\Services\\LoggedInUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T07:58:10.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ILoggedInUserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Interfaces\\ILoggedInUserService.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Interfaces\\ILoggedInUserService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Interfaces\\ILoggedInUserService.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Interfaces\\ILoggedInUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T07:56:15.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LibraryApp.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\LibraryApp.Domain.csproj",
+              "RelativeDocumentMoniker": "LibraryApp.Domain\\LibraryApp.Domain.csproj",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\LibraryApp.Domain.csproj",
+              "RelativeToolTip": "LibraryApp.Domain\\LibraryApp.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-21T09:46:23.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InterfaceService.Registration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\InterfaceService.Registration.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\InterfaceService.Registration.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\InterfaceService.Registration.cs",
+              "RelativeToolTip": "Library.Infrastructure\\InterfaceService.Registration.cs",
+              "ViewState": "AgIAABAAAAAAMzMzMzMbwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:13:08.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RegistrationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Models\\Identity\\RegistrationRequest.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Models\\Identity\\RegistrationRequest.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Models\\Identity\\RegistrationRequest.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Models\\Identity\\RegistrationRequest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAawBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:25:33.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ILoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Interfaces\\LoanInterfaces\\ILoanRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Interfaces\\LoanInterfaces\\ILoanRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Interfaces\\LoanInterfaces\\ILoanRepository.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Interfaces\\LoanInterfaces\\ILoanRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:56:49.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuthRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Models\\Identity\\AuthRequest.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Models\\Identity\\AuthRequest.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Models\\Identity\\AuthRequest.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Models\\Identity\\AuthRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:07:36.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegistrationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Models\\Identity\\RegistrationResponse.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Models\\Identity\\RegistrationResponse.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Models\\Identity\\RegistrationResponse.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Models\\Identity\\RegistrationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:07:51.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetLoansQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoans\\GetLoansQueryHandler.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoans\\GetLoansQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoans\\GetLoansQueryHandler.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoans\\GetLoansQueryHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T13:29:04.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetLoansByUserIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoansByUserId\\GetLoansByUserIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoansByUserId\\GetLoansByUserIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoansByUserId\\GetLoansByUserIdQueryHandler.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoansByUserId\\GetLoansByUserIdQueryHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T15:48:12.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GetLoansQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoans\\GetLoansQuery.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoans\\GetLoansQuery.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoans\\GetLoansQuery.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Features\\LoanFeature\\Query\\GetLoans\\GetLoansQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T13:27:53.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IdentityServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Identity\\IdentityServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Library.Identity\\IdentityServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Identity\\IdentityServiceRegistration.cs",
+              "RelativeToolTip": "Library.Identity\\IdentityServiceRegistration.cs",
+              "ViewState": "AgIAAAkAAAAAMTMzMzMbwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T12:27:53.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "LibraryApp.API\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "LibraryApp.API\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:14:18.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Interfaces\\MemberInterfaces\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Interfaces\\MemberInterfaces\\IMemberRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Interfaces\\MemberInterfaces\\IMemberRepository.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Interfaces\\MemberInterfaces\\IMemberRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:11:32.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\AuditableEntity.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Domain\\AuditableEntity.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Domain\\AuditableEntity.cs",
+              "RelativeToolTip": "LibraryApp.Domain\\AuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T07:45:33.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "LibraryApp.API\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "LibraryApp.API\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAsAAAAAkGVmZmbGvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:26:02.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryApp.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.API\\Program.cs",
+              "RelativeToolTip": "LibraryApp.API\\Program.cs",
+              "ViewState": "AgIAACcAAADAZWZmZmYswBcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:02:01.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250403081124_addingauditable.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Migrations\\20250403081124_addingauditable.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Migrations\\20250403081124_addingauditable.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Infrastructure\\Migrations\\20250403081124_addingauditable.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Migrations\\20250403081124_addingauditable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T08:11:24.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LibraryAppIdentityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Identity\\Context\\LibraryAppIdentityDbContext.cs",
+              "RelativeDocumentMoniker": "Library.Identity\\Context\\LibraryAppIdentityDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Identity\\Context\\LibraryAppIdentityDbContext.cs",
+              "RelativeToolTip": "Library.Identity\\Context\\LibraryAppIdentityDbContext.cs",
+              "ViewState": "AgIAAAoAAADgMjMzMzMrwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:43:26.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "BorrowBookCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Command\\BorrowBook\\BorrowBookCommandHandler.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Features\\LoanFeature\\Command\\BorrowBook\\BorrowBookCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Command\\BorrowBook\\BorrowBookCommandHandler.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Features\\LoanFeature\\Command\\BorrowBook\\BorrowBookCommandHandler.cs",
+              "ViewState": "AgIAABgAAABAyMzMzIwrwCcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T08:17:36.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "BorrowBookCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Command\\BorrowBook\\BorrowBookCommand.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Features\\LoanFeature\\Command\\BorrowBook\\BorrowBookCommand.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\LoanFeature\\Command\\BorrowBook\\BorrowBookCommand.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Features\\LoanFeature\\Command\\BorrowBook\\BorrowBookCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:08:40.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LoanDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Models\\LoanDto\\LoanDto.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Models\\LoanDto\\LoanDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Models\\LoanDto\\LoanDto.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Models\\LoanDto\\LoanDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T04:09:41.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "GetAvailableBooksQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\BookFeature\\Query\\GetAvailableBooks\\GetAvailableBooksQuery.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Features\\BookFeature\\Query\\GetAvailableBooks\\GetAvailableBooksQuery.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\BookFeature\\Query\\GetAvailableBooks\\GetAvailableBooksQuery.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Features\\BookFeature\\Query\\GetAvailableBooks\\GetAvailableBooksQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:02:48.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetAvailableBooksQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\BookFeature\\Query\\GetAvailableBooks\\GetAvailableBooksQueryHandler.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Features\\BookFeature\\Query\\GetAvailableBooks\\GetAvailableBooksQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Features\\BookFeature\\Query\\GetAvailableBooks\\GetAvailableBooksQueryHandler.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Features\\BookFeature\\Query\\GetAvailableBooks\\GetAvailableBooksQueryHandler.cs",
+              "ViewState": "AgIAAAoAAAAAZWZmZmb2vxcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:03:01.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Models\\Identity\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "LibraryApp.Application\\Models\\Identity\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\LibraryApp.Application\\Models\\Identity\\JwtSettings.cs",
+              "RelativeToolTip": "LibraryApp.Application\\Models\\Identity\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T12:07:29.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Identity\\Model\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Library.Identity\\Model\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Dotnetcsharp\\Dotnetcsharp\\Full_Stack_Project\\Library_Management_System\\Library.Identity\\Model\\ApplicationUser.cs",
+              "RelativeToolTip": "Library.Identity\\Model\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T13:29:47.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

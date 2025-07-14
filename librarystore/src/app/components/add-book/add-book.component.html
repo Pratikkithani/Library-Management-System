@@ -1,0 +1,61 @@
+<div class="form-container">
+    <form #addForm="ngForm" (ngSubmit)="addBook(addForm)">
+      <h2 class="form-title">Add New Book</h2>
+  
+      <div class="mb-3">
+        <label for="title" class="form-label">Book Title</label>
+        <input type="text" class="form-control" id="title" required #title="ngModel"
+               name="title" [(ngModel)]="newBook.title" placeholder="Enter Title">
+        <span *ngIf="title.invalid && title.touched" class="error-text">Title is required</span>
+      </div>
+  
+      <div class="mb-3">
+        <label for="author" class="form-label">Author</label>
+        <input type="text" class="form-control" id="author" required #author="ngModel"
+               name="author" [(ngModel)]="newBook.author" placeholder="Enter Author">
+        <span *ngIf="author.invalid && author.touched" class="error-text">Author is required</span>
+      </div>
+  
+      <div class="mb-3">
+        <label for="isbn" class="form-label">ISBN</label>
+        <input type="text" class="form-control" id="isbn" required #isbn="ngModel"
+               name="isbn" [(ngModel)]="newBook.isbn" placeholder="Enter ISBN">
+        <span *ngIf="isbn.invalid && isbn.touched" class="error-text">ISBN is required</span>
+      </div>
+  
+      <div class="mb-3">
+        <label for="categoryId" class="form-label">Select Category</label>
+        <select class="form-control" id="categoryId" name="categoryId"
+                [(ngModel)]="newBook.categoryId" #categorySelect="ngModel" required>
+          <option value="" disabled>-- Select Category --</option>
+          <option *ngFor="let category of categories" [value]="category.categoryId">
+            {{ category.name }}
+          </option>
+        </select>
+        <span *ngIf="categorySelect.invalid && categorySelect.touched" class="error-text">
+          Category is required
+        </span>
+      </div>
+  
+      <div class="mb-3">
+        <label for="publishedYear" class="form-label">Published Year</label>
+        <input type="text" class="form-control" id="publishedYear" required #publishedYear="ngModel"
+               name="publishedYear" [(ngModel)]="newBook.publishedYear" placeholder="Enter Published Year">
+        <span *ngIf="publishedYear.invalid && publishedYear.touched" class="error-text">
+          Published Year is required
+        </span>
+      </div>
+  
+      <div class="mb-3">
+        <label for="copiesAvailable" class="form-label">Copies Available</label>
+        <input type="text" class="form-control" id="copiesAvailable" required #copiesAvailable="ngModel"
+               name="copiesAvailable" [(ngModel)]="newBook.copiesAvailable" placeholder="Enter Copies Available">
+        <span *ngIf="copiesAvailable.invalid && copiesAvailable.touched" class="error-text">
+          Copies Available is required
+        </span>
+      </div>
+  
+      <button type="submit" class="btn btn-primary btn-submit">Add Book</button>
+    </form>
+  </div>
+  

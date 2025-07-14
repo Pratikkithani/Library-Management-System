@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Library System</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item" *ngIf="!userservice.isLoggedIn()">
+                <a class="nav-link" routerLink="/login">Login</a>
+              </li>
+              <li class="nav-item" *ngIf="!userservice.isLoggedIn()">
+                <a class="nav-link" routerLink="/register">Register</a>
+              </li>
+        
+              <!-- Show Logout only when logged in -->
+              <li class="nav-item" *ngIf="userservice.isLoggedIn() && tokenservice.isCustomer()">
+                <a class="nav-link" routerLink="/loan">Loans</a>
+              </li>
+              <li class="nav-item" *ngIf="userservice.isLoggedIn() && tokenservice.isCustomer()">
+                <a class="nav-link" routerLink="/addloan">Add Loan</a>
+              </li>
+              <li class="nav-item" *ngIf="userservice.isLoggedIn() && tokenservice.isAdmin()">
+                <a class="nav-link" routerLink="/addbook">Add Book</a>
+              </li>
+              <li class="nav-item" *ngIf="userservice.isLoggedIn() && tokenservice.isAdmin()">
+                <a class="nav-link" routerLink="/addcategory">Add Category</a>
+              </li>
+              <li class="nav-item" *ngIf="userservice.isLoggedIn() && tokenservice.isAdmin()">
+                <a class="nav-link" routerLink="/book">All Books</a>
+              </li>
+              <li class="nav-item" *ngIf="userservice.isLoggedIn() && tokenservice.isAdmin()">
+                <a class="nav-link" routerLink="/category">All Categories</a>
+              </li>
+              <li class="nav-item" *ngIf="userservice.isLoggedIn()">
+                <a class="nav-link logout-btn" (click)="logout()">Logout</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+  

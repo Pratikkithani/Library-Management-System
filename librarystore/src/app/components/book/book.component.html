@@ -1,0 +1,16 @@
+<div class="book-container">
+  <div class="book-card" *ngFor="let item of books">
+    <div class="book-content">
+      <h3>{{ item?.title }}</h3>
+      <p><strong>Author:</strong> {{ item?.author }}</p>
+      <p><strong>ISBN:</strong> {{ item?.isbn }}</p>
+      <p><strong>Category ID:</strong> {{ item?.categoryId }}</p>
+      <p><strong>Published Year:</strong> {{ item?.publishedYear }}</p>
+      <p><strong>Copies Available:</strong> {{ item?.copiesAvailable }}</p>
+    </div>
+    <div class="book-actions">
+      <button class="btn btn-update" (click)="updateBookById(item.bookId!)">Update</button>
+      <button class="btn btn-delete" (click)="deleteBookById(item.bookId!)">Delete</button>
+    </div>
+  </div>
+</div>

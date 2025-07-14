@@ -1,0 +1,46 @@
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Application.deps.json
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Application.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Domain.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Domain.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryA.09C76E48.Up2Date
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\refint\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\ref\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Application.deps.json
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Application.pdb
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Domain.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Domain.pdb
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryA.09C76E48.Up2Date
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\refint\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.pdb
+C:\Users\User\OneDrive\Desktop\New folder\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\ref\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Application.deps.json
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Application.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Domain.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\bin\Debug\net8.0\LibraryApp.Domain.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.sourcelink.json
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryA.09C76E48.Up2Date
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\refint\LibraryApp.Application.dll
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\LibraryApp.Application.pdb
+C:\Users\User\OneDrive\Desktop\Dotnetcsharp\Dotnetcsharp\Full_Stack_Project\Library_Management_System\LibraryApp.Application\obj\Debug\net8.0\ref\LibraryApp.Application.dll

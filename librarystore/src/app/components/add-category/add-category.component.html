@@ -1,0 +1,25 @@
+<div class="form-container">
+    <form #addForm="ngForm" (ngSubmit)="addCategory(addForm)">
+      <h2 class="form-title">Add New Category</h2>
+  
+      <div class="mb-3">
+        <label for="name" class="form-label">Category Name</label>
+        <input type="text" class="form-control" id="name" required #name="ngModel"
+               name="name" [(ngModel)]="newCategory.name" placeholder="Enter Category Name">
+        <span *ngIf="name.invalid && name.touched" class="error-text">Category Name is required</span>
+      </div>
+  
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea class="form-control" id="description" required #description="ngModel"
+                  name="description" [(ngModel)]="newCategory.description"
+                  placeholder="Enter Description" rows="3"></textarea>
+        <span *ngIf="description.invalid && description.touched" class="error-text">
+          Description is required
+        </span>
+      </div>
+  
+      <button type="submit" class="btn btn-primary btn-submit">Add Category</button>
+    </form>
+  </div>
+  
