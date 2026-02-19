@@ -1,0 +1,21 @@
+<div class="success-backdrop" *ngIf="isVisible">
+  <div class="success-modal">
+
+    <div class="success-icon">
+      ✓
+    </div>
+
+    <h2 class="success-title">
+      {{ title }}
+    </h2>
+
+    <p class="success-message">
+      {{ message }}
+    </p>
+
+    <button class="success-btn" (click)="close()">
+      OK
+    </button>
+
+  </div>
+</div>

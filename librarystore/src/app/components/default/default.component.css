@@ -1,0 +1,48 @@
+.bg-img {
+    background: url('/assets/library.jpg') no-repeat center center fixed;
+    background-size: contain;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home-container {
+    text-align: center;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency for readability */
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.compact-swal {
+  min-height: auto !important;
+  border-radius: 12px;
+}
+
+/* Reduce title size */
+.swal2-title {
+  font-size: 18px !important;
+    padding: 0;
+}
+
+/* Reduce icon size */
+.swal2-icon {
+  transform: scale(0.8);
+  margin: 10px auto 10px auto !important;
+}
+
+/* Reduce text spacing */
+.swal2-html-container {
+  font-size: 15px !important;
+  margin: 10px 0 !important;
+}
+
+/* Smaller button */
+.swal2-confirm {
+  padding: 6px 18px !important;
+  font-size: 14px !important;
+}
+
+.swal2-container{
+    padding: 0;
+}
+
+.swal2-actions{
+    margin: 0;
+}

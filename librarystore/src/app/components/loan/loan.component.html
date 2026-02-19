@@ -1,0 +1,153 @@
+<div class="loan-container">
+  <h2 class="loan-title">Your Loans</h2>
+
+  <div class="table-responsive">
+      <table class="table loan-table">
+          <thead> 
+              <tr>
+                  <!-- <th>Loan ID</th> -->
+                  <th>
+                    <div class="head-cell">
+                        <span>Book Name</span>
+                        <input type="text" [(ngModel)]="bookFilter" placeholder="Enter Book Name">
+                    </div>
+                  </th>
+                  <!-- <th>
+                    <div class="head-cell">
+                        <span style="width: 100px;">Member Name</span>
+                        <input type="text" [(ngModel)]="memberFilter" placeholder="Enter Member Name">
+                    </div>
+                  </th> -->
+                  <th>
+                    <div class="head-cell">
+                        <span>Loan Date</span>
+
+                        <div class="date-input-wrapper">
+                        <input type="date" [(ngModel)]="loanDateFilter" />
+
+                        <button
+                            *ngIf="loanDateFilter"
+                            type="button"
+                            class="clear-btn"
+                            (click)="loanDateFilter = null">
+                            ✕
+                        </button>
+                        </div>
+
+                    </div>
+                 </th>
+                  <th>
+                    <div class="head-cell">
+                        <span>Due Date</span>
+
+                        <div class="date-input-wrapper">
+                        <input type="date" [(ngModel)]="dueDateFilter" />
+
+                        <button
+                            *ngIf="dueDateFilter"
+                            type="button"
+                            class="clear-btn"
+                            (click)="dueDateFilter = null">
+                            ✕
+                        </button>
+                        </div>
+
+                    </div>
+                  </th>
+                  <th>
+                    <div class="head-cell">
+                        <span>Return Date</span>
+
+                        <div class="date-input-wrapper">
+                        <input type="date" [(ngModel)]="returnDateFilter" />
+
+                        <button
+                            *ngIf="returnDateFilter"
+                            type="button"
+                            class="clear-btn"
+                            (click)="returnDateFilter = null">
+                            ✕
+                        </button>
+                        </div>
+
+                    </div>
+                  </th>
+                  <th>
+                    <div class="head-cell">
+                        <span>Status</span>
+                        <input type="text" [(ngModel)]="statusFilter" placeholder="Enter Status">
+                    </div>
+                  </th>
+                  <th>
+                    <div class="head-cell">
+                        <span>Return Book</span>
+                        <input style="visibility: hidden;" disabled type="text">
+                        <!-- <input type="text"> -->
+                    </div>
+                  </th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let loan of paginatedLoans">
+                  <!-- <td>{{ loan.loanId }}</td> -->
+                  <td>{{ loan.book.title }}</td>
+                  <!-- <td>{{ loan.member.name | titlecase }}</td> -->
+                  <td>{{ loan.loanDate | date:'dd-MM-yyyy' }}</td>
+                  <td>{{ loan.dueDate | date:'dd-MM-yyyy' }}</td>
+                  <td>{{ loan.returnDate | date:'dd-MM-yyyy' }}</td>
+                  <td>{{ loan.status }}</td>
+                  <td>
+                    <button [disabled]="loan.status === 'Returned'" class="btn btn-return" (click)="updateLoanStatus(loan.loanId!)">Return</button>
+                  </td>                  
+                </tr>
+                <tr *ngIf="filteredLoans.length === 0">
+                    <td colspan="6" class="no-data">
+                    No Data Found
+                    </td>
+                </tr>
+          </tbody>
+      </table>
+  </div>
+  <div class="pagination-container" *ngIf="filteredLoans.length > 0">
+
+        <!-- Items Per Page Dropdown -->
+        <div class="page-size">
+            <label>Items per page:</label>
+            <select 
+            [(ngModel)]="pageSize"
+            (ngModelChange)="changePageSize($event)"
+            >
+            
+            <option *ngFor="let size of pageSizeOptions" [value]="size">
+                {{ size }}
+            </option>
+
+            </select>
+            <label>Total Records : {{loansexample.length}}</label>
+        </div>
+
+        <!-- Arrows -->
+        <div class="page-controls">
+
+            <button 
+            class="arrow-btn"
+            (click)="previousPage()"
+            [disabled]="currentPage === 1">
+            <img src="assets/left-arrow.png" alt="Previous">
+            </button>
+
+            <span class="page-info">
+            {{ currentPage }} / {{ totalPages }}
+            </span>
+
+            <button 
+            class="arrow-btn"
+            (click)="nextPage()"
+            [disabled]="currentPage === totalPages">
+            <img src="assets/right-arrow.png" alt="Next">
+            </button>
+
+        </div>
+
+    </div>
+</div>

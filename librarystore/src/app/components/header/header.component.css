@@ -1,0 +1,64 @@
+/* Custom Gradient Background */
+.custom-navbar {
+    background: linear-gradient(135deg, #00467F, #A5CC82);
+    padding: 14px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 24px;
+    color: white !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    opacity: 0.8;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: white !important;
+    padding: 10px 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.logout-btn {
+    background-color: #FF4B5C;
+    color: white !important;
+    border-radius: 5px;
+    padding: 8px 18px !important;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #FF6F61;
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .logout-btn {
+        margin-top: 10px;
+    }
+}

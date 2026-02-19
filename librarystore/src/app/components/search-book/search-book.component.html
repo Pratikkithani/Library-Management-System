@@ -1,0 +1,25 @@
+<div class="form-container">
+  <h2 class="form-title">Search Book by ID</h2>
+
+  <!-- Search Form -->
+  <form (ngSubmit)="getBookById()" class="search-form">
+      <div class="input-group">
+          <input type="number" class="form-control" id="searchId" [(ngModel)]="searchId" 
+                 name="searchId" required placeholder="Enter Book ID...">
+          <button type="submit" class="btn btn-primary">🔍 Search</button>
+      </div>
+  </form>
+
+  <hr>
+
+  <!-- Display Book Details -->
+  <div *ngIf="searchedBook" class="book-card">
+      <h4 class="book-title">📚 Book Details</h4>
+      <p><strong>Title:</strong> {{ searchedBook.title }}</p>
+      <p><strong>Author:</strong> {{ searchedBook.author }}</p>
+      <p><strong>ISBN:</strong> {{ searchedBook.isbn }}</p>
+      <p><strong>Category:</strong> {{ searchedBook.categoryId }}</p>
+      <p><strong>Published Year:</strong> {{ searchedBook.publishedYear }}</p>
+      <p><strong>Copies Available:</strong> {{ searchedBook.copiesAvailable }}</p>
+  </div>
+</div>

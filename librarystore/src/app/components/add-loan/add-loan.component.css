@@ -1,0 +1,23 @@
+.loan-form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .loan-form label {
+    font-weight: bold;
+  }
+  
+  .loan-form .form-control {
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  

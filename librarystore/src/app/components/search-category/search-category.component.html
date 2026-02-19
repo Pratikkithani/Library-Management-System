@@ -1,0 +1,21 @@
+<div class="form-container">
+  <h2 class="form-title">Search Category by ID</h2>
+  
+  <!-- Search Form -->
+  <form (ngSubmit)="getCategoryById()" class="search-form">
+      <div class="input-group">
+          <input type="number" class="form-control" id="searchId" [(ngModel)]="searchId" 
+                 name="searchId" required placeholder="Enter Category ID...">
+          <button type="submit" class="btn btn-primary">🔍 Search</button>
+      </div>
+  </form>
+
+  <hr>
+
+  <!-- Display Category Details -->
+  <div *ngIf="searchedCategory" class="category-card">
+      <h4 class="category-title">Category Details</h4>
+      <p><strong>Name:</strong> {{ searchedCategory.name }}</p>
+      <p><strong>Description:</strong> {{ searchedCategory.description }}</p>
+  </div>
+</div>

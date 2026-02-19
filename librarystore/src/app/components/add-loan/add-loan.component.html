@@ -1,0 +1,51 @@
+<form #addForm="ngForm" (ngSubmit)="addLoan(addForm)">
+  <div class="loan-form">
+    <div class="mb-3">
+      <label for="bookId" class="form-label">Select Book</label>
+      <select class="form-control" id="bookId" name="bookId"
+              [(ngModel)]="newLoan.bookId" #bookSelect="ngModel" required>
+        <option value="" disabled>-- Select Book --</option>
+        <option *ngFor="let book of books" [value]="book.bookId">
+          {{ book.title }} ({{ book.author }})
+        </option>
+      </select>
+      <span *ngIf="bookSelect.invalid && bookSelect.touched" style="color: red;">
+        Book is required
+      </span>
+    </div>
+
+
+    <!-- <div class="mb-3">
+      <label for="loanDate" class="form-label">Loan Date</label>
+      <input type="date" class="form-control" id="loanDate" required #loanDate="ngModel"
+        name="loanDate" [(ngModel)]="newLoan.loanDate">
+      <span *ngIf="loanDate.invalid && loanDate.touched" style="color: red;">
+        Loan Date is required
+      </span>
+    </div>
+
+    <div class="mb-3">
+      <label for="dueDate" class="form-label">Due Date</label>
+      <input type="date" class="form-control" id="dueDate" required #dueDate="ngModel"
+        name="dueDate" [(ngModel)]="newLoan.dueDate">
+      <span *ngIf="dueDate.invalid && dueDate.touched" style="color: red;">
+        Due Date is required
+      </span>
+    </div>
+
+    <div class="mb-3">
+      <label for="status" class="form-label">Status</label>
+      <select class="form-control" id="status" name="status"
+              [(ngModel)]="newLoan.status" #statusSelect="ngModel" required>
+        <option value="" disabled>-- Select Status --</option>
+        <option value="Issued">Issued</option>
+        <option value="Returned">Returned</option>
+      </select>
+      <span *ngIf="statusSelect.invalid && statusSelect.touched" style="color: red;">
+        Status is required
+      </span>
+    </div> -->
+
+    <button type="submit" class="btn btn-primary">Add Loan</button>
+  </div>
+</form>

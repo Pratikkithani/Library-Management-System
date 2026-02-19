@@ -1,0 +1,107 @@
+/* Center the form with a background gradient */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Box with shadow and rounded corners */
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Heading with modern font */
+.login-form h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+}
+
+/* Form Group styling */
+.form-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+/* Labels */
+.form-group label {
+    font-weight: bold;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Input Fields - enhanced */
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Input Fields Focus Effect */
+.form-control:focus {
+    border-color: #6e7fda;
+    box-shadow: 0 0 8px rgba(110, 127, 218, 0.5);
+    outline: none;
+}
+
+/* Error Messages */
+.error-text {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Login Button - modern style */
+.btn-login {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: #6e7fda;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover effect */
+.btn-login:hover {
+    background-color: #4b6cb7;
+    transform: translateY(-3px);
+}
+
+/* Button active effect */
+.btn-login:active {
+    transform: translateY(1px);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    .login-form {
+        padding: 20px;
+    }
+
+    .login-form h2 {
+        font-size: 24px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+}
