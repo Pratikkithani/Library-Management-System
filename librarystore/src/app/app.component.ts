@@ -5,6 +5,7 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AddBookComponent } from './components/add-book/add-book.component';
+import { LoginService } from './services/login.service';
 
 @Component({
   selector: 'app-root',
@@ -15,5 +16,14 @@ import { AddBookComponent } from './components/add-book/add-book.component';
   
 })
 export class AppComponent {
+  getlogin : boolean = false
+  constructor(private userservice: LoginService){}
+  ngOnInit(){
+    this.islogin();
+  }
+  islogin(){
+    this.getlogin = this.userservice.isLoggedIn()
+    console.log("getlogin",this.getlogin)
+  }
   title = 'librarystore';
 }

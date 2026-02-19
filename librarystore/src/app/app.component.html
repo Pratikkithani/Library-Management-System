@@ -1,7 +1,9 @@
 <!-- <app-login></app-login>
 <app-register></app-register> -->
 
-<app-header></app-header>
+@if(getlogin){
+    <app-header></app-header>
+}
 
 <div class="container container-c mt-4">
     <router-outlet></router-outlet>
