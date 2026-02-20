@@ -1,10 +1,10 @@
 <div class="book-container">
   <div class="book-card" *ngFor="let item of books">
+    <h3 class="book-title">{{ item?.title }}</h3>
     <div class="book-content">
-      <h3>{{ item?.title }}</h3>
       <p><strong>Author:</strong> {{ item?.author }}</p>
       <p><strong>ISBN:</strong> {{ item?.isbn }}</p>
-      <p><strong>Category ID:</strong> {{ item?.categoryId }}</p>
+      <!-- <p><strong>Category ID:</strong> {{ item?.categoryId }}</p> -->
       <p><strong>Published Year:</strong> {{ item?.publishedYear }}</p>
       <p><strong>Copies Available:</strong> {{ item?.copiesAvailable }}</p>
     </div>

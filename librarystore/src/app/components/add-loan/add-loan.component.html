@@ -49,3 +49,21 @@
     <button type="submit" class="btn btn-primary">Add Loan</button>
   </div>
 </form>
+
+<div>
+  <h4 class="limited">Limited Copies Available Burrow Now!!!</h4>
+  <div class="book-container">
+    <div class="book-card" *ngFor="let item of lowStockBooks">
+      <div class="book-content">
+        <h3>{{ item?.title }}</h3>
+        <p><strong>Author:</strong> {{ item?.author }}</p>
+        <p><strong>ISBN:</strong> {{ item?.isbn }}</p>
+        <!-- <p><strong>Category ID:</strong> {{ item?.categoryId }}</p> -->
+        <p><strong>Published Year:</strong> {{ item?.publishedYear }}</p>
+        <p><strong>Copies Available:</strong> {{ item?.copiesAvailable }}</p>
+      </div>
+      <!-- <div class="book-actions">
+      </div> -->
+    </div>
+  </div>
+</div>

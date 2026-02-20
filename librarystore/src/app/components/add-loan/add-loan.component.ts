@@ -20,6 +20,7 @@ export class AddLoanComponent {
   loans?: Loan[];
   books?: Book[];
   newLoan: Loan = new Loan();
+  lowStockBooks:any;
 
   constructor(private loanService: LoanService, private bookService: BookService,private router:Router) {}
 
@@ -30,8 +31,14 @@ export class AddLoanComponent {
   getAllBooks(): void {
     this.bookService.getAvailableBooks().subscribe((books: Book[]) => {
       this.books = books;
-      console.log(this.books);
+      this.lowStockBooks = this.limitedStock(this.books);
+      console.log("data",this.lowStockBooks)
     });
+  }
+
+  limitedStock(books:any){
+    const lowStockBooks = books.filter((book:any) => book.copiesAvailable <= 4);
+    return lowStockBooks;
   }
 
   addLoan(addForm: NgForm): void {
