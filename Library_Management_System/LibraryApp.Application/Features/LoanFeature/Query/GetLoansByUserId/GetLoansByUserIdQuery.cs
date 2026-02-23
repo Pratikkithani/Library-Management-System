@@ -8,6 +8,6 @@ using MediatR;
 
 namespace LibraryApp.Application.Features.LoanFeature.Query.GetLoansByUserId
 {
-    public record GetLoansByUserIdQuery(string userId) : IRequest<IEnumerable<Loan>>;
+    public record GetLoansByUserIdQuery(string userId, string? WhereCondition) : IRequest<IEnumerable<Loan>>;
 
 }

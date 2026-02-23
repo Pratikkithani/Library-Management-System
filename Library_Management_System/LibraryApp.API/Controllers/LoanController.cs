@@ -9,6 +9,7 @@ using LibraryApp.Application.Features.LoanFeature.Query.GetLoanById;
 using LibraryApp.Application.Features.LoanFeature.Query.GetLoans;
 using LibraryApp.Application.Features.LoanFeature.Query.GetLoansByUserId;
 using LibraryApp.Application.Interfaces;
+using LibraryApp.Application.Models;
 using LibraryApp.Application.Models.LoanDto;
 using LibraryApp.Domain;
 using MediatR;
@@ -20,7 +21,7 @@ namespace LibraryApp.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "User")]
+    //[Authorize(Roles = "User")]
     public class LoanController : ControllerBase
     {
         readonly IMediator _mediator;
@@ -39,16 +40,19 @@ namespace LibraryApp.API.Controllers
             return Ok(allLoans);
         }
 
-        [HttpGet("getall")]
-        public async Task<IActionResult> GetLoansByUserIdAsync()
+        [HttpPost("getall")]
+        public async Task<IActionResult> GetLoansByUserIdAsync([FromBody] FilterRequest request)
         {
             var userid = _loggedInUserService.UserId;
             if (userid == null)
             {
                 return Unauthorized();
             }
-            var allLoans = await _mediator.Send(new GetLoansByUserIdQuery(userid));
-            return Ok(allLoans);
+            //var allLoans = await _mediator.Send(new GetLoansByUserIdQuery(userid));
+            var query = new GetLoansByUserIdQuery(userid, request?.WhereCondition);
+
+            var result = await _mediator.Send(query);
+            return Ok(result);
         }
 
         [HttpPost]

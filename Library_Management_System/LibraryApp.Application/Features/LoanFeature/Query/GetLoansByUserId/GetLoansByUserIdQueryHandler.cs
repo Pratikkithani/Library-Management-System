@@ -19,7 +19,7 @@ namespace LibraryApp.Application.Features.LoanFeature.Query.GetLoansByUserId
         }
         public async Task<IEnumerable<Loan>> Handle(GetLoansByUserIdQuery request, CancellationToken cancellationToken)
         {
-            var allLoans = await _loanRepository.GetLoansByUserIdAsync(request.userId);
+            var allLoans = await _loanRepository.GetLoansByUserIdAsync(request.userId,request.WhereCondition);
             return allLoans;
         }
     }

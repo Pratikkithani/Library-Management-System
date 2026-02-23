@@ -1,21 +1,40 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Dapper;
 using Library.Infrastructure.Context;
 using LibraryApp.Application.Interfaces.LoanInterfaces;
 using LibraryApp.Domain;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Library.Infrastructure.Repository
 {
     public class LoanRepository : ILoanRepository
     {
         protected readonly LibraryDbContext _libraryDbContext;
-        public LoanRepository(LibraryDbContext libraryDbContext)
+        //public LoanRepository(LibraryDbContext libraryDbContext)
+        //{
+        //    _libraryDbContext = libraryDbContext;
+        //}
+
+        private readonly IConfiguration _configuration;
+        private readonly string _connectionString;
+
+        public LoanRepository(IConfiguration configuration, LibraryDbContext libraryDbContext)
         {
             _libraryDbContext = libraryDbContext;
+            _configuration = configuration;
+            _connectionString = _configuration.GetConnectionString("LibraryWebAPIconnString");
+        }
+
+        private IDbConnection CreateConnection()
+        {
+            return new SqlConnection(_connectionString);
         }
         public async Task<Loan> BorrowBookAsync(Loan loan)
         {
@@ -43,10 +62,34 @@ namespace Library.Infrastructure.Repository
             return await _libraryDbContext.Loans.Include(b=>b.Book).ToListAsync();
         }
 
-        public async Task<IEnumerable<Loan>> GetLoansByUserIdAsync(string userId)
+        //public async Task<IEnumerable<Loan>> GetLoansByUserIdAsync(string userId)
+        //{
+        //    return await _libraryDbContext.Loans.Include(u=>u.Member).Include(u => u.Book).Where(b=>b.Member.UserId==userId).ToListAsync();
+        //}
+
+        public async Task<IEnumerable<Loan>> GetLoansByUserIdAsync(string userId, string? whereCondition)
         {
-            return await _libraryDbContext.Loans.Include(u=>u.Member).Include(u => u.Book).Where(b=>b.Member.UserId==userId).ToListAsync();
+            using var connection = CreateConnection();
+            var parameters = new DynamicParameters();
+            parameters.Add("@UserId", userId);
+            parameters.Add("@WhereCondition", whereCondition);
+
+            var loans = await connection.QueryAsync<Loan, Member, Book, Loan>(
+                "sp_GetLoansByUserId",
+                (loan, member, book) =>
+                {
+                    loan.Member = member;
+                    loan.Book = book;
+                    return loan;
+                },
+                parameters,
+                commandType: CommandType.StoredProcedure,
+                splitOn: "MemberId,BookId"
+            );
+
+            return loans;
         }
+
 
         public async Task<bool> ReturnBookAsync(int loanId)
         {
