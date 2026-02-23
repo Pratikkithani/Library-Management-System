@@ -62,7 +62,7 @@
                         <span>Return Date</span>
 
                         <div class="date-input-wrapper">
-                        <input type="date" [(ngModel)]="returnDateFilter" />
+                        <input type="date" [(ngModel)]="returnDateFilter" (ngModelChange)="onFilterChange()" />
 
                         <button
                             *ngIf="returnDateFilter"
@@ -103,7 +103,7 @@
                     <button [disabled]="loan.status === 'Returned'" class="btn btn-return" (click)="updateLoanStatus(loan.loanId!)">Return</button>
                   </td>                  
                 </tr>
-                <tr *ngIf="loansexample.length === 0">
+                <tr *ngIf="loansexample?.length === 0">
                     <td colspan="6" class="no-data">
                     No Data Found
                     </td>
@@ -111,7 +111,7 @@
           </tbody>
       </table>
   </div>
-  <div class="pagination-container" *ngIf="loansexample.length > 0">
+  <div class="pagination-container" *ngIf="loansexample?.length > 0">
 
         <!-- Items Per Page Dropdown -->
         <div class="page-size">
