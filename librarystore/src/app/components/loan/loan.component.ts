@@ -32,6 +32,7 @@ export class LoanComponent {
   loanDateFilter: string | null = null;
   dueDateFilter: string | null = null;
   returnDateFilter: string | null = null;
+  isLoading: boolean = false;
   // Pagination
   currentPage: number = 1;
   pageSize: number = 5;   // rows per page
@@ -45,6 +46,34 @@ export class LoanComponent {
   }
 
   constructor(private loanservice:LoanService){}
+
+  buildFilters(): any {
+  const filters: any = {};
+
+  if (this.bookFilter && this.bookFilter.trim() !== '') {
+    filters.Title = this.bookFilter.trim();
+  }
+
+  if (this.statusFilter && this.statusFilter.trim() !== '') {
+    filters.Status = this.statusFilter.trim();
+  }
+
+  if (this.loanDateFilter) {
+    filters.LoanDate = this.loanDateFilter;
+  }
+
+  if (this.dueDateFilter) {
+    filters.DueDate = this.dueDateFilter;
+  }
+
+  if (this.returnDateFilter) {
+    filters.ReturnDate = this.returnDateFilter;
+  }
+
+  return filters;
+}
+
+  
   getAllLoans(): void {
     this.loanservice.getAllLoans().subscribe((loans:Loan [] )=> {
       this.loans=loans;
@@ -53,10 +82,15 @@ export class LoanComponent {
   }
 
   getAllLoansByUserId(): void {
-    this.loanservice.getAllLoansByUserId().subscribe((userloans:Loan [] )=> {
+     const filters = this.buildFilters();
+    let obj = {
+      WhereCondition: JSON.stringify(filters)
+    }
+    this.isLoading = true;
+    this.loanservice.getAllLoansByUserId(obj).subscribe((userloans:Loan [] )=> {
       this.userloans=userloans;
       this.loansexample = this.userloans;
-      console.log(userloans);
+      this.isLoading = false;
     }); 
   }
 
@@ -110,11 +144,11 @@ export class LoanComponent {
 
 get paginatedLoans(): any[] {
   const startIndex = (this.currentPage - 1) * this.pageSize;
-  return this.filteredLoans.slice(startIndex, startIndex + this.pageSize);
+  return this.loansexample?.slice(startIndex, startIndex + this.pageSize);
 }
 
 get totalPages(): number {
-  return Math.ceil(this.filteredLoans.length / this.pageSize);
+  return Math.ceil(this.loansexample.length / this.pageSize);
 }
 
 previousPage() {
@@ -132,6 +166,45 @@ nextPage() {
 changePageSize(size: number) {
   this.pageSize = Number(size);
   this.currentPage = 1;  // reset to first page
+}
+
+
+private filterTimeout: any;
+
+onFilterChange() {
+  clearTimeout(this.filterTimeout);
+
+  this.filterTimeout = setTimeout(() => {
+    this.getAllLoansByUserId();
+  }, 500); // 500ms delay
+}
+
+clearFilter(type: string) {
+
+  switch (type) {
+    case 'loanDate':
+      this.loanDateFilter = null;
+      break;
+
+    case 'dueDate':
+      this.dueDateFilter = null;
+      break;
+
+    case 'returnDate':
+      this.returnDateFilter = null;
+      break;
+
+    case 'book':
+      this.bookFilter = '';
+      break;
+
+    case 'status':
+      this.statusFilter = '';
+      break;
+  }
+
+  this.currentPage = 1;      // reset pagination
+  this.getAllLoansByUserId(); // refresh API
 }
 
 

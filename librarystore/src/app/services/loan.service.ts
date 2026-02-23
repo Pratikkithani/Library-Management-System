@@ -15,8 +15,8 @@ export class LoanService {
       return this.http.get<Loan[]>("http://localhost:5036/api/Loan");
     }
 
-    getAllLoansByUserId():Observable<Loan[]>{
-      return this.http.get<Loan[]>("http://localhost:5036/api/Loan/getall");
+    getAllLoansByUserId(data:any):Observable<Loan[]>{
+      return this.http.post<Loan[]>("http://localhost:5036/api/Loan/getall",data);
     }
 
    addLoan(loan: Loan): Observable<LoanDto> {
