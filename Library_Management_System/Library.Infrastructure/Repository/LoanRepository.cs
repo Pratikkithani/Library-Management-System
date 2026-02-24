@@ -1,23 +1,32 @@
-﻿using Library.Infrastructure.Context;
+﻿using Dapper;
+using Library.Infrastructure.Context;
 using LibraryApp.Application.Interfaces.LoanInterfaces;
 using LibraryApp.Domain;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Dapper;
 
 namespace Library.Infrastructure.Repository
 {
     public class LoanRepository : ILoanRepository
     {
         protected readonly LibraryDbContext _libraryDbContext;
-        public LoanRepository(LibraryDbContext libraryDbContext)
+        private readonly IConfiguration _configuration;
+        private readonly string _connectionString;
+        public LoanRepository(IConfiguration configuration,LibraryDbContext libraryDbContext)
         {
             _libraryDbContext = libraryDbContext;
+            _connectionString = _configuration.GetConnectionString("LibraryWebAPIconnString");
+        }
+        private IDbConnection CreateConnection()
+        {
+            return new SqlConnection(_connectionString);
         }
         public async Task<Loan> BorrowBookAsync(Loan loan)
         {
