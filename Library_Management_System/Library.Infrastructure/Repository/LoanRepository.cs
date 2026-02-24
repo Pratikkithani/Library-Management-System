@@ -22,6 +22,7 @@ namespace Library.Infrastructure.Repository
         public LoanRepository(IConfiguration configuration,LibraryDbContext libraryDbContext)
         {
             _libraryDbContext = libraryDbContext;
+            _configuration = configuration;
             _connectionString = _configuration.GetConnectionString("LibraryWebAPIconnString");
         }
         private IDbConnection CreateConnection()
