@@ -1,5 +1,4 @@
-﻿using System.Security.Claims;
-using LibraryApp.Application.Features.CategoryFeature.Command.AddCategory;
+﻿using LibraryApp.Application.Features.CategoryFeature.Command.AddCategory;
 using LibraryApp.Application.Features.CategoryFeature.Command.DeleteCategory;
 using LibraryApp.Application.Features.CategoryFeature.Query.GetCategories;
 using LibraryApp.Application.Features.CategoryFeature.Query.GetCategoryById;
@@ -9,12 +8,14 @@ using LibraryApp.Application.Features.LoanFeature.Query.GetLoanById;
 using LibraryApp.Application.Features.LoanFeature.Query.GetLoans;
 using LibraryApp.Application.Features.LoanFeature.Query.GetLoansByUserId;
 using LibraryApp.Application.Interfaces;
+using LibraryApp.Application.Models;
 using LibraryApp.Application.Models.LoanDto;
 using LibraryApp.Domain;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace LibraryApp.API.Controllers
 {
@@ -40,15 +41,19 @@ namespace LibraryApp.API.Controllers
         }
 
         [HttpGet("getall")]
-        public async Task<IActionResult> GetLoansByUserIdAsync()
+        public async Task<IActionResult> GetLoansByUserIdAsync([FromBody] FilterRequest request)
         {
             var userid = _loggedInUserService.UserId;
             if (userid == null)
             {
                 return Unauthorized();
             }
-            var allLoans = await _mediator.Send(new GetLoansByUserIdQuery(userid));
-            return Ok(allLoans);
+            //var allLoans = await _mediator.Send(new GetLoansByUserIdQuery(userid));
+            //return Ok(allLoans);
+            var query = new GetLoansByUserIdQuery(userid, request?.WhereCondition);
+
+            var result = await _mediator.Send(query);
+            return Ok(result);
         }
 
         [HttpPost]

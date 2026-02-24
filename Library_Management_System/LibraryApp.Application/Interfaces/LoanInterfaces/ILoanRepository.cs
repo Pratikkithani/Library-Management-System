@@ -10,7 +10,7 @@ namespace LibraryApp.Application.Interfaces.LoanInterfaces
     public interface ILoanRepository
     {
         Task<IEnumerable<Loan>> GetLoans();
-        Task<IEnumerable<Loan>> GetLoansByUserIdAsync(string userId);
+        Task<IEnumerable<Loan>> GetLoansByUserIdAsync(string userId, string? WhereCondition);
         Task<Loan> GetLoanByIdAsync(int id);
         Task<Loan> BorrowBookAsync(Loan loan);
         Task<bool> ReturnBookAsync(int loanId);

@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Library.Infrastructure.Context;
+﻿using Library.Infrastructure.Context;
 using LibraryApp.Application.Interfaces.LoanInterfaces;
 using LibraryApp.Domain;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Dapper;
 
 namespace Library.Infrastructure.Repository
 {
@@ -43,10 +45,34 @@ namespace Library.Infrastructure.Repository
             return await _libraryDbContext.Loans.Include(b=>b.Book).ToListAsync();
         }
 
-        public async Task<IEnumerable<Loan>> GetLoansByUserIdAsync(string userId)
+        //public async Task<IEnumerable<Loan>> GetLoansByUserIdAsync(string userId)
+        //{
+        //    return await _libraryDbContext.Loans.Include(u=>u.Member).Include(u => u.Book).Where(b=>b.Member.UserId==userId).ToListAsync();
+        //}
+
+        public async Task<IEnumerable<Loan>> GetLoansByUserIdAsync(string userId, string? whereCondition)
         {
-            return await _libraryDbContext.Loans.Include(u=>u.Member).Include(u => u.Book).Where(b=>b.Member.UserId==userId).ToListAsync();
+            using var connection = CreateConnection();
+            var parameters = new DynamicParameters();
+            parameters.Add("@UserId", userId);
+            parameters.Add("@WhereCondition", whereCondition);
+
+            var loans = await connection.QueryAsync<Loan, Member, Book, Loan>(
+                "sp_GetLoansByUserId",
+                (loan, member, book) =>
+                {
+                    loan.Member = member;
+                    loan.Book = book;
+                    return loan;
+                },
+                parameters,
+                commandType: CommandType.StoredProcedure,
+                splitOn: "MemberId,BookId"
+            );
+
+            return loans;
         }
+
 
         public async Task<bool> ReturnBookAsync(int loanId)
         {
