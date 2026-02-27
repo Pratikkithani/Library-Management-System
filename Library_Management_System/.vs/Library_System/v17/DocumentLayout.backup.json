@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|c:\\users\\user\\downloads\\library-management-system-main\\library-management-system-main\\library_management_system\\library.identity\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|solutionrelative:library.identity\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\downloads\\library-management-system-main\\library-management-system-main\\library_management_system\\libraryapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\downloads\\library-management-system-main\\library-management-system-main\\library_management_system\\libraryapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|c:\\users\\user\\downloads\\library-management-system-main\\library-management-system-main\\library_management_system\\library.identity\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|solutionrelative:library.identity\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\downloads\\library-management-system-main\\library-management-system-main\\library_management_system\\libraryapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|c:\\users\\user\\downloads\\library-management-system-main\\library-management-system-main\\library_management_system\\library.identity\\identityserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68135805-AE27-4431-8468-218705CE00D2}|Library.Identity\\Library.Identity.csproj|solutionrelative:library.identity\\identityserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|c:\\users\\user\\downloads\\library-management-system-main\\library-management-system-main\\library_management_system\\libraryapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81EB9A93-94A2-4A13-8D89-A9F01339CEF9}|LibraryApp.API\\LibraryApp.API.csproj|solutionrelative:libraryapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08194F98-6FC7-4DD0-86A2-E07D73FD65D7}|Library.Infrastructure\\Library.Infrastructure.csproj|c:\\users\\user\\downloads\\library-management-system-main\\library-management-system-main\\library_management_system\\library.infrastructure\\interfaceservice.registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -141,50 +141,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\LibraryApp.API\\appsettings.json",
               "RelativeDocumentMoniker": "LibraryApp.API\\appsettings.json",
               "ToolTip": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\LibraryApp.API\\appsettings.json",
               "RelativeToolTip": "LibraryApp.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-02-27T05:06:24.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\Library.Infrastructure\\Repository\\LoanRepository.cs",
-              "RelativeDocumentMoniker": "Library.Infrastructure\\Repository\\LoanRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\Library.Infrastructure\\Repository\\LoanRepository.cs",
-              "RelativeToolTip": "Library.Infrastructure\\Repository\\LoanRepository.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAowD4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T05:47:28.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LoanController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\LibraryApp.API\\Controllers\\LoanController.cs",
-              "RelativeDocumentMoniker": "LibraryApp.API\\Controllers\\LoanController.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\LibraryApp.API\\Controllers\\LoanController.cs",
-              "RelativeToolTip": "LibraryApp.API\\Controllers\\LoanController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwC4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T10:06:13.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\LibraryApp.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "LibraryApp.API\\Controllers\\AuthController.cs",
@@ -197,20 +171,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\Library.Identity\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Library.Identity\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\Library.Identity\\Services\\AuthService.cs",
               "RelativeToolTip": "Library.Identity\\Services\\AuthService.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAcwFUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAA4wHUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T10:15:29.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\LibraryApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryApp.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\LibraryApp.API\\Program.cs",
+              "RelativeToolTip": "LibraryApp.API\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T10:14:58.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoanController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\LibraryApp.API\\Controllers\\LoanController.cs",
+              "RelativeDocumentMoniker": "LibraryApp.API\\Controllers\\LoanController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\LibraryApp.API\\Controllers\\LoanController.cs",
+              "RelativeToolTip": "LibraryApp.API\\Controllers\\LoanController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T10:06:13.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "LoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\Library.Infrastructure\\Repository\\LoanRepository.cs",
+              "RelativeDocumentMoniker": "Library.Infrastructure\\Repository\\LoanRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\Library.Infrastructure\\Repository\\LoanRepository.cs",
+              "RelativeToolTip": "Library.Infrastructure\\Repository\\LoanRepository.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T05:47:28.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IdentityServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\Library.Identity\\IdentityServiceRegistration.cs",
               "RelativeDocumentMoniker": "Library.Identity\\IdentityServiceRegistration.cs",
@@ -219,19 +232,6 @@
               "ViewState": "AgIAACAAAAAAAAAAAAAUwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T06:58:02.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\LibraryApp.API\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryApp.API\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Downloads\\Library-Management-System-main\\Library-Management-System-main\\Library_Management_System\\LibraryApp.API\\Program.cs",
-              "RelativeToolTip": "LibraryApp.API\\Program.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwCwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T10:14:58.503Z",
               "EditorCaption": ""
             },
             {

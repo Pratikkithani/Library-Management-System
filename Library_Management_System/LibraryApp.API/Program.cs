@@ -43,11 +43,11 @@ namespace LibraryApp.API
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
+            //if (app.Environment.IsDevelopment())
+            //{
                 app.UseSwagger();
                 app.UseSwaggerUI();
-            }
+            //}
             app.UseMiddleware<ExceptionMiddleware>();
             app.UseCors(x => x
                         .AllowAnyOrigin()
@@ -61,6 +61,11 @@ namespace LibraryApp.API
                 opts.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod();
             });
 
+            app.MapGet("/", context =>
+            {
+                context.Response.Redirect("/swagger");
+                return Task.CompletedTask;
+            });
             app.MapControllers();
 
             app.Run();
