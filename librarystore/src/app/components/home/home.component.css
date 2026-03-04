@@ -1,7 +1,8 @@
 .bg-img {
   background: url('/assets/library.jpg') no-repeat center center fixed;
   background-size: contain;
-  height: 100vh;
+  height: 76vh;
+  /* height: 100vh; */
   margin: 0;
   display: flex;
   justify-content: center;
