@@ -39,5 +39,27 @@ export const routes: Routes = [
 
 
 
+    // { path: '', redirectTo: '/default', pathMatch: 'full' },
+    // { path:'default', component:DefaultComponent },
+    // { path:'home', component:HomeComponent },
+
+    // // USER ROUTES
+    // { path:'loan', component:LoanComponent, canActivate:[authGuard], data:{roles:['USER']} },
+    // { path:'addloan', component:AddLoanComponent, canActivate:[authGuard], data:{roles:['USER']} },
+
+    // // ADMIN ROUTES
+    // { path:'book', component:BookComponent, canActivate:[authGuard], data:{roles:['ADMIN']} },
+    // { path:'addbook', component:AddBookComponent, canActivate:[authGuard], data:{roles:['ADMIN']} },
+    // { path:'searchbook', component:SearchBookComponent, canActivate:[authGuard], data:{roles:['ADMIN']} },
+    // { path:'updatebook/:id', component:UpdateBookComponent, canActivate:[authGuard], data:{roles:['ADMIN']} },
+
+    // { path:'category', component:CategoryComponent, canActivate:[authGuard], data:{roles:['ADMIN']} },
+    // { path:'addcategory', component:AddCategoryComponent, canActivate:[authGuard], data:{roles:['ADMIN']} },
+    // { path:'searchcategory', component:SearchCategoryComponent, canActivate:[authGuard], data:{roles:['ADMIN']} },
+    // { path:'updatecategory/:id', component:UpdateCategoryComponent, canActivate:[authGuard], data:{roles:['ADMIN']} },
+
+    // { path:'login', component:LoginComponent },
+    // { path:'register', component:RegisterComponent },
+    // { path:'logout', component:LogoutComponent }
     
 ];

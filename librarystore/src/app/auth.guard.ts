@@ -30,4 +30,27 @@ export const authGuard: CanActivateFn = (route, state) => {
   // } else {
   //   return false;
   // }
+
+  // const userService = inject(LoginService);
+  // const tokenService = inject(TokenService);
+
+  // if (userService.isLoggedIn()) {
+
+  //   const userRole = tokenService.getUserRole(); // USER or ADMIN
+  //   const allowedRoles = route.data['roles'];
+
+  //   // if roles not specified allow access
+  //   if (!allowedRoles) {
+  //     return true;
+  //   }
+
+  //   if (allowedRoles.includes(userRole)) {
+  //     return true;
+  //   }
+
+  //   return false;
+
+  // }
+
+  // return false;
 };
